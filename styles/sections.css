@@ -2,7 +2,6 @@
   img {
     height: 100%;
     object-fit: cover;
-    border-radius: 4px;
   }
 
 
@@ -42,3 +41,17 @@ position: relative;
 
 
 }
+
+#weekly {
+
+  &>div {
+    grid-template-columns: repeat(4, 292px);
+  }
+
+  img {
+    height: 160px;
+  }
+
+}
+
+
